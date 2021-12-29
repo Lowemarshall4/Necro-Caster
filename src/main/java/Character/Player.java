@@ -5,14 +5,11 @@
  */
 package Character;
 
-import Ability.Ability;
 import Ability.AttackAbility;
 import Ability.DefenseAbility;
-import GUI.Tile;
 import Inventory.Inventory;
 import java.awt.Toolkit;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Random;
 import javax.swing.ImageIcon;
 

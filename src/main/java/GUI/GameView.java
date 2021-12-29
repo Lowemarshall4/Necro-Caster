@@ -5,7 +5,6 @@
  */
 package GUI;
 
-import Character.Battle;
 import GUI.Containers.BattlePanel;
 import GUI.Containers.HowToPlayPanel;
 import GUI.Containers.InventoryFrame;
@@ -13,7 +12,6 @@ import GUI.Containers.MainMenuPanel;
 import GUI.Containers.MapPanel;
 import GUI.Containers.StatsPanel;
 import GUI.Containers.MainFrame;
-import java.util.ArrayList;
 
 /**
  *
@@ -28,8 +26,6 @@ public class GameView {
     public StatsPanel statsPanel;
     public GameModel model;
     public BattlePanel battlePanel;
-            
-            
             
             
             

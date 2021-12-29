@@ -5,21 +5,13 @@
  */
 package Character;
 
-import Character.Player;
-import Character.Person;
-import GUI.Containers.BattlePanel;
-import GUI.Containers.MapPanel;
-import GUI.Containers.StatsPanel;
 import GUI.Controller;
 import GUI.GameView;
-import Inventory.Item;
 import Inventory.MaterialItem;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.SwingWorker;

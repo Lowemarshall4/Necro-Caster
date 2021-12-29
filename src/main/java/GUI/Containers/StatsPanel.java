@@ -5,7 +5,6 @@
  */
 package GUI.Containers;
 
-import java.awt.*;
 import javax.swing.*;
 
 public class StatsPanel extends javax.swing.JPanel {

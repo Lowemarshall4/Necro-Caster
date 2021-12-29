@@ -7,8 +7,6 @@ package Character;
 
 import Ability.AttackAbility;
 import Ability.DefenseAbility;
-import GUI.Tile;
-import java.awt.Toolkit;
 import java.util.ArrayList;
 import javax.swing.ImageIcon;
 

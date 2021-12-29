@@ -5,11 +5,7 @@
  */
 package GUI.Containers;
 
-import Character.AI;
-import Character.Battle;
 import Character.Person;
-import GUI.Controller;
-import GUI.GameModel;
 import GUI.Tile;
 import java.awt.*;
 import java.util.ArrayList;

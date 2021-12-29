@@ -7,14 +7,10 @@ package GUI;
 
 import Ability.AttackAbility;
 import Ability.DefenseAbility;
-import Character.AI;
 import Character.Battle;
 import Character.Person;
 import Character.Player;
 import Character.Stats;
-import GUI.Containers.BattlePanel;
-import GUI.Containers.MapPanel;
-import GUI.Containers.StatsPanel;
 import Inventory.Equipment;
 import Inventory.Inventory;
 import Inventory.MaterialItem;
@@ -24,14 +20,7 @@ import Inventory.Staff;
 import Objects.Enemies;
 import Objects.Maps;
 import java.awt.Toolkit;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 
 
@@ -58,7 +47,7 @@ public class GameModel {
     public Player player;
     public volatile Battle battle;
     
-    public static ImageIcon PLAYERMAPIMAGE = new ImageIcon(Toolkit.getDefaultToolkit().getImage(Tile.class.getResource("/tiles/7.png")));
+    public static ImageIcon PLAYERMAPIMAGE = new ImageIcon(Toolkit.getDefaultToolkit().getImage(Tile.class.getResource("src/main/Resources/tiles/7.png")));
     public static ImageIcon PLAYERBATTLEIMAGE = new ImageIcon(Toolkit.getDefaultToolkit().getImage(Tile.class.getResource("/characterImages/0.png")));
     public static ArrayList<Person> ENEMIESMAP1;
     public static ArrayList<Person> ENEMIESMAP2;

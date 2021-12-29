@@ -5,17 +5,10 @@
  */
 package Objects;
 
-import Ability.AttackAbility;
-import Character.AI;
+
 import Character.Person;
-import Character.Stats;
-import GUI.GameModel;
-import Inventory.MaterialItem;
-import Inventory.Ring;
-import Inventory.Robe;
-import Inventory.Staff;
+
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  *

@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package GUI.Containers;
-import Inventory.MaterialItem;
 import java.awt.*;
 import javax.swing.*;
 

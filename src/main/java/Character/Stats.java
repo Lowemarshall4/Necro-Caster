@@ -6,7 +6,6 @@
 package Character;
 
 import Inventory.Equipment;
-import Inventory.Item;
 import Inventory.MaterialItem;
 
 /**

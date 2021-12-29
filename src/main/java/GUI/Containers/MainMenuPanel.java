@@ -5,7 +5,6 @@
  */
 package GUI.Containers;
 
-import java.awt.event.WindowEvent;
 import javax.swing.*;
 
 public class MainMenuPanel extends javax.swing.JPanel {
