@@ -15,4 +15,4 @@ The data used for the creation of many of the objects in the game is fetched fro
 The sql file to generate the database table can be found inside java/Database/
 The code for the connection to a a database can be found inside java/GUI/Controller starting at line 521
 
-NOTE('S): The software may have versioning issues || You will need to create your own MYSQL database and run included sql file through to setup the tables needed to start the game.
+NOTE('S): The software may have versioning issues. Although I am just now publishing it on GitHub, it was created a year prior so there may be compatibility issues. || In order to properly load the data, you will need to create your own MYSQL database and run included sql file through to setup the tables needed to start the game.
